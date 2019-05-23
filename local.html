@@ -1,0 +1,631 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Font Awesome  -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+        crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+    <!--  Css Link -->
+    <link rel="stylesheet" href="localstyle.css">
+    <!--  js link  -->
+    <link rel="stylesheet" href="main.js">
+
+    <title>Local Stores</title>
+</head>
+
+<body>
+
+    <div class="header">
+        <!-- ====top navbar==== -->
+        <div class="black-header">
+            <div class="container ">
+                <nav class="navbar navbar-expand-lg navbar-dark text-secondary bg-#333333">
+                    <div class="dropdown">
+                        <a class="btn1 bg-#333333 dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            Currency : GBP
+                        </a>
+
+                        <div class="dropdown-menu bg-#f8f8f8" aria-labelledby="dropdownMenuLink">
+                            <a class="dropdown-item" href="#">AZN ₼</a>
+                            <a class="dropdown-item" href="#">RUB ​₽</a>
+                            <a class="dropdown-item" href="#">USD $</a>
+                            <a class="dropdown-item" href="#">EUR €</a>
+                        </div>
+                    </div>
+                    <div class="collapse  navbar-collapse d-flex justify-content-end" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <div class="nav1">
+                                <li class="nav-item mx-3">
+                                    <a class="nav-link" href="register.html">Register</a>
+                                </li>
+                            </div>
+                            <div class="nav1">
+                                <li class="nav-item mx-3">
+                                    <a class="nav-link" href="register.html">Sign in</a>
+                                </li>
+                            </div>
+                            <div class="nav2">
+                                <li class="nav-item dropdown mx-3">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-shopping-cart"></i>
+                                        empty
+                                    </a>
+                                    <div class="dropdown-menu ">
+                                        <a class="dropdown-item" href="#"></a>
+                                        <a class="dropdown-item" href="#">Add to cart!</a>
+                                        <a class="dropdown-item" href="#">Remove the cart!</a>
+                                    </div>
+                                </li>
+                            </div>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- ====///top navbar==== -->
+        <div class="banner d-lg-none" >
+        <!-- mobile nav -->
+            <nav id="mobile-navbar" class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#"> <img class="logo" src="img/logo.png"></a>
+                <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+    
+                <div  class="navbar-collapse collapse text-center " id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto d-lg-none">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="product.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                MENS
+                            </a>
+                            <div class="dropdown-menu" style="padding: 0;" aria-labelledby="navbarDropdown">
+                                <div class="open-menu ">
+                                    <div class="row">
+                                        <div class="col-6 open-menu-left">
+                                            <h3>casuals</h3>
+                                            <ul>
+                                                <li><a href="product.html"> Jackets</a></li>
+                                                <li><a href="product.html"> Hoodies &amp; sweatshirts</a></li>
+                                                <li><a href="product.html"> Polo Shirts</a></li>
+                                                <li><a href="product.html"> Sportswear</a></li>
+                                                <li><a href="product.html"> Trousers &amp; Chinos</a></li>
+                                                <li><a href="product.html"> T-shirtss</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-6 open-menu-right">
+                                            <h3 class="">casuals</h3>
+                                            <ul>
+                                                <li><a href="product.html"> Jackets</a></li>
+                                                <li><a href="product.html"> Shirts</a></li>
+                                                <li><a href="product.html"> Suits</a></li>
+                                                <li><a href="product.html"> Trousers</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="sale text-center">
+                                            <p class="top"> autumn sale!</p>
+                                            <p class="bottom"> up to 50% off</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="product-1.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                WOMENS
+                            </a>
+                            <div class="dropdown-menu" style="padding: 0;" aria-labelledby="navbarDropdown">
+                                <div class="open-menu ">
+                                    <div class="row">
+                                        <div class="col-6 open-menu-left">
+                                            <h3>casuals</h3>
+                                            <ul>
+                                                <li><a href="product-1.html"> Jackets</a></li>
+                                                <li><a href="product-1.html"> Hoodies &amp; sweatshirts</a></li>
+                                                <li><a href="product-1.html"> Polo Shirts</a></li>
+                                                <li><a href="product-1.html"> Sportswear</a></li>
+                                                <li><a href="product-1.html"> Trousers &amp; Chinos</a></li>
+                                                <li><a href="product-1.html"> T-shirtss</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-6 open-menu-right">
+                                            <h3 class="">casuals</h3>
+                                            <ul>
+                                                <li><a href="product-1.html"> Jackets</a></li>
+                                                <li><a href="product-1.html"> Shirts</a></li>
+                                                <li><a href="product-1.html"> Suits</a></li>
+                                                <li><a href="product-1.html"> Trousers</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="sale text-center">
+                                            <p class="top"> autumn sale!</p>
+                                            <p class="bottom"> up to 50% off</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="brand.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            THE BRAND
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="local.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                               LOCAL STORES
+                            </a>
+                            <div class="dropdown-menu" style="padding: 0;" aria-labelledby="navbarDropdown">
+                                <div class="open-menu ">
+                                    <div class="row">
+                                        <div class="col-6 open-menu-left">
+                                            <h3>casuals</h3>
+                                            <ul>
+                                                <li><a href=""> Jackets</a></li>
+                                                <li><a href=""> Hoodies &amp; sweatshirts</a></li>
+                                                <li><a href=""> Polo Shirts</a></li>
+                                                <li><a href=""> Sportswear</a></li>
+                                                <li><a href=""> Trousers &amp; Chinos</a></li>
+                                                <li><a href=""> T-shirtss</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-6 open-menu-right">
+                                            <h3 class="">casuals</h3>
+                                            <ul>
+                                                <li><a href=""> Jackets</a></li>
+                                                <li><a href=""> Shirts</a></li>
+                                                <li><a href=""> Suits</a></li>
+                                                <li><a href=""> Trousers</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="sale text-center">
+                                            <p class="top"> autumn sale!</p>
+                                            <p class="bottom"> up to 50% off</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="lookbook.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                               LOOK BOOK
+                            </a>
+                            <div class="dropdown-menu" style="padding: 0;" aria-labelledby="navbarDropdown">
+                                <div class="open-menu ">
+                                    <div class="row">
+                                        <div class="col-6 open-menu-left">
+                                            <h3>casuals</h3>
+                                            <ul>
+                                                <li><a href=""> Jackets</a></li>
+                                                <li><a href=""> Hoodies &amp; sweatshirts</a></li>
+                                                <li><a href=""> Polo Shirts</a></li>
+                                                <li><a href=""> Sportswear</a></li>
+                                                <li><a href=""> Trousers &amp; Chinos</a></li>
+                                                <li><a href=""> T-shirtss</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-6 open-menu-right">
+                                            <h3 class="">casuals</h3>
+                                            <ul>
+                                                <li><a href=""> Jackets</a></li>
+                                                <li><a href=""> Shirts</a></li>
+                                                <li><a href=""> Suits</a></li>
+                                                <li><a href=""> Trousers</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="sale text-center">
+                                            <p class="top"> autumn sale!</p>
+                                            <p class="bottom"> up to 50% off</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+    
+                    </ul>
+                    <form class="form-inline pr-5 mr-5">
+                        <input class="form-control border-right-4 " type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline" type="submit"><i class="fas fa-search"></i></button>
+                    </form>
+                </div>
+            </nav>
+      
+            </div>
+        </div>
+    
+    </header>
+    <!-- ====================///Header==================== -->
+
+        <!-- =======navbar section======== -->
+        <div class="navbar cant  align">
+            <div class="container1 d-flex justify-content-around">
+                <div class="logo pl-5 ml-5">
+                    <a href="index.html"><img class="logo1" src="img/logo.png" alt=""></a>
+                </div>
+                <div class="container d-flex align-items-center">
+                    <div class="row mother ml-3 pr-3 d-flex justify-content-end">
+                        <div class="row">
+                            <div class="col-12 d-flex justify-content-end">
+                                <ul class="header__nav w-100">
+                                    <li class="current">
+                                    <li class="has-children">
+                                        <a href="product.html" class="navbar-name">MENS <br>
+                                            <p><i class="fas fa-angle-right"></i></p>
+                                        </a>
+                                        <ul class="sub-menu mt-3" style="width: 450px; box-shadow:2px 2px 2px grey;">
+                                            <div class=" sutun " style="width:430px; height: 550px;">
+                                                <div class="row">
+                                                    <div class="col-6 sut3">
+                                                        <li><a href="#" class="sut-1">
+                                                                <h5 class="sut-h5 my-4">CASUALS </h5>
+                                                            </a></li>
+                                                        <li><a href="product.html" class="sut-li my-2">Jackets </a></li>
+                                                        <li><a href="product.html" class="sut-li my-2">Hoodies &
+                                                                Sweatshirt</a></li>
+                                                        <li><a href="product.html" class="sut-li my-2">Polo Shirt </a></li>
+                                                        <li><a href="product.html" class="sut-li my-2">Sportswear </a></li>
+                                                        <li><a href="product.html" class="sut-li my-2">Trousers &
+                                                                Chinos </a></li>
+                                                        <li><a href="product.html" class="sut-li my-2">T-Shirts </a></li>
+                                                    </div>
+                                                    <div class="col-6 sut4">
+                                                        <li><a href="#" class="sut-1">
+                                                                <h5 class="sut-h5 my-4">FORMAL</h5>
+                                                            </a></li>
+                                                        <li><a href="product.html" class="sut-li my-2">Jackets</a></li>
+                                                        <li><a href="product.html" class="sut-li my-2">Shirt</a></li>
+                                                        <li><a href="product.html" class="sut-li my-2">Suit</a></li>
+                                                        <li><a href="product.html" class="sut-li my-2">Trousers</a></li>
+                                                    </div>
+
+                                                </div>
+                                                <div class="navbar-box1 mt-3 d-flex justify-content-center align-items-center">
+                                                    <h1 class="navbar-h1">AUTUMN SALE!<BR>
+                                                        UP TO 50% OFF</h1>
+                                                </div>
+                                            </div>
+                                        </ul>
+                                    </li>
+
+                                    <li class="has-children">
+                                        <a href="product-1.html" class="navbar-name">WOMENS <br>
+                                            <p><i class="fas fa-angle-right"></i></p>
+                                        </a>
+                                        <ul class="sub-menu mt-3" style="width: 450px; box-shadow: 2px 2px 2px grey;">
+                                            <div class=" sutun " style="width:430px; height: 550px;">
+                                                <div class="row">
+                                                    <div class="col-6 sut3">
+                                                        <li><a href="#" class="sut-1">
+                                                                <h5 class="sut-h5 my-4">CASUALS </h5>
+                                                            </a></li>
+                                                        <li><a href="product-1.html" class="sut-li my-2">Jackets </a></li>
+                                                        <li><a href="product-1.html" class="sut-li my-2">Hoodies &
+                                                                Sweatshirt</a></li>
+                                                        <li><a href="product-1.html" class="sut-li my-2">Polo Shirt </a></li>
+                                                        <li><a href="product-1.html" class="sut-li my-2">Sportswear </a></li>
+                                                        <li><a href="product-1.html" class="sut-li my-2">Trousers &
+                                                                Chinos </a></li>
+                                                        <li><a href="product-1.html" class="sut-li my-2">T-Shirts </a></li>
+                                                    </div>
+                                                    <div class="col-6 sut4">
+                                                        <li><a href="#" class="sut-1">
+                                                                <h5 class="sut-h5 my-4">FORMAL</h5>
+                                                            </a></li>
+                                                        <li><a href="product-1.html" class="sut-li my-2">Jackets</a></li>
+                                                        <li><a href="product-1.html" class="sut-li my-2">Shirt</a></li>
+                                                        <li><a href="product-1.html" class="sut-li my-2">Suit</a></li>
+                                                        <li><a href="product-1.html" class="sut-li my-2">Trousers</a></li>
+                                                    </div>
+
+                                                </div>
+                                                <div class="navbar-box1 mt-3 d-flex justify-content-center align-items-center">
+                                                    <h1 class="navbar-h1">AUTUMN SALE!<BR>
+                                                        UP TO 50% OFF</h1>
+                                                </div>
+                                            </div>
+                                        </ul>
+                                    </li>
+                                    <li><a href="brand.html" class="navbar-name">THE BRAND</a></li>
+
+                                    <li class="has-children">
+                                        <a href="local.html" class="navbar-name">LOCAL STORES <br></a>
+
+
+                                    </li>
+                                    <li class="has-children">
+                                        <a href="lookbook.html" class="navbar-name">LOOK BOOK <br>
+                                            <p><i class="fas fa-angle-right"></i></p>
+                                        </a>
+                                        <ul class="sub-menu mt-3" style="width: 550px; box-shadow: 2px 2px 2px grey;">
+                                            <div class=" sutun " style="width:480px; height: 400px;">
+                                                <div class="row">
+                                                    <div class="col-6 sut">
+                                                        <li><a href="#" class="sut-1">
+                                                                <h5 class="sut-h5 my-4">OURS LOOKBOOKS </h5>
+                                                            </a></li>
+                                                        <li><a href="lookbook.html" class="sut-li my-2">Lasted Post (mixed)
+                                                            </a></li>
+                                                        <li><a href="lookbook.html" class="sut-li my-2">Men's Lookbook </a></li>
+                                                        <li><a href="lookbook.html" class="sut-li my-2">Women's Lookbook
+                                                            </a></li>
+                                                    </div>
+                                                    <div class="col-6 sut1">
+                                                        <li><a href="#" class="sut-1">
+                                                                <h5 class="sut-h5 my-4">YOUR LOOKBOOKS </h5>
+                                                            </a></li>
+                                                        <li><a href="lookbook.html" class="sut-li my-2">View and Edit</a></li>
+                                                        <li><a href="lookbook.html" class="sut-li my-2">Share</a></li>
+                                                        <li><a href="lookbook.html" class="sut-li my-2">Delete</a></li>
+                                                    </div>
+
+                                                </div>
+                                                <div class="navbar-box mt-3 d-flex justify-content-center align-items-center">
+                                                    <h1 class="navbar-h1">AUTUMN SALE!<BR>
+                                                        UP TO 50% OFF</h1>
+                                                </div>
+                                            </div>
+                                        </ul>
+                                    </li>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <form class="form-inline pr-5 mr-5">
+                    <input class="form-control border-right-4 " type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline" type="submit"><i class="fas fa-search"></i></button>
+                </form>
+            </div>
+        </div>
+        <div class="header-picture d-flex justify-content-center align-items-center">
+            <div class="header-pict">
+                <h1 class="head-pict-h1"><b>LOCAL</b> STORES</h1>
+                <h3 class="head-pict-h3">FIND A STORE NEAR YOU</h3>
+            </div>
+        </div>
+    </div>
+    <!-- =================///Header================= -->
+   
+    <!-- ================City============= -->
+    <div class="city  d-flex align-items-center">
+        <div class="container">
+            <div class="row ">
+                <div class="col-lg-4 col-sm-12 py-3">
+                    <div class="city-header">
+                        <h2 class="city-name-h1 ml-3 py-3">LONDON</h2>
+                        <h6 class="city-name-h5 mb-2 ml-3">180-182 RAGENT STREET, LONDON W18 5BT</h6>
+                        <p class="city-name-p  ml-3 "> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Phasellus at mauris eget metus tristique imperdiet.
+                            Donec nec velit faucibus, ultrices arcu at, blandit metus.</p>
+                        <button class="main-button ml-3 my-3">VIEW DETAILS</button>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-12 py-3">
+                    <div class="city-header">
+                        <h2 class="city-name-h1 ml-3 py-3">NEW YORK</h2>
+                        <h6 class="city-name-h5 mb-2 ml-3">109 COLUMBUS CIRICLE, NEW YORK, NY 10023</h6>
+                        <p class="city-name-p  ml-3 "> Phasellus at mauris eget metus tristique imperdiet.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Donec nec velit faucibus, ultrices arcu at, blandit metus.</p>
+                        <button class="main-button ml-3 my-3">VIEW DETAILS</button>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-12 py-3">
+                    <div class="city-header">
+                        <h2 class="city-name-h1 ml-3 py-3">PARIS</h2>
+                        <h6 class="city-name-h5 mb-2 ml-3">2133 RUE SAINT-HONORE.75001 PARIS</h6>
+                        <p class="city-name-p  ml-3 "> Donec nec velit faucibus, ultrices arcu at, blandit metus.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Phasellus at mauris eget metus tristique imperdiet.
+                        </p>
+                        <button class="main-button ml-3 my-3">VIEW DETAILS</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="map">
+        <div class="row m-0">
+            <div class="col-lg-8  col-sm-12 p-0"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d24285.87109918998!2d49.71231943955079!3d40.45902649999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1str!2s!4v1548594180999"
+                    width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+            <div class="col-lg-4 col-sm-12 p-0 map-height">
+                <div class="city-header-map">
+                    <h2 class="city-name-h2 ml-3 py-3">LONDON</h2>
+                    <h6 class="city-name-h6  my-3 ml-3">180-182 RAGENT STREET, LONDON W18 5BT</h6>
+                    <p class="city-name-p1  ml-3 "> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Phasellus at mauris eg metus tristique imperdiet.
+                        Donec nec velit faucibus, ultrices arcu at, blandit metus. Lorem ipsum
+                        dolor sit amet, consectetur adipiscing elit.</p>
+
+                    <div class="map-adress">
+                        <div class="map-icon d-flex justify-content-start">
+                            <i class="fas fa-map-marker-alt mt-2 mx-4 m-icon"></i>
+                            <p class="map-p">180-182 Ragent Street, London W18 5BT</p>
+                        </div>
+                        <div class="map-icon d-flex justify-content-start">
+                            <i class="fas fa-phone  mt-2  mx-4 m-icon"></i>
+                            <p class="map-p">(012) 344 44 44</p>
+                        </div>
+                        <div class="map-icon d-flex justify-content-start">
+                            <i class="fas fa-link  mt-2  mx-4 m-icon"></i>
+                            <p class="map-p">www.yourwebsite.com</p>
+                        </div>
+                        <div class="map-icon d-flex justify-content-start">
+                            <i class="far fa-envelope mt-2  mx-4 m-icon"></i>
+                            <p class="map-p">support@yourwebsite.com</p>
+                        </div>
+                        <div class="map-icon d-flex justify-content-start">
+                            <i class="far fa-clock mt-2  mx-4 m-icon"></i>
+                            <p class="map-p">Monday-Friday: 9am to 6 pm Sunday: 10am to 2pm</p>
+                        </div>
+
+                        <div class="row lcbook mx-2 mt-3">
+                            <div class="col-1 mx-3"><a href="https://www.facebook.com/">
+                                    <div class="map-border d-flex justify-content-center align-items-center"><i class="fab fa-facebook-f"></i></div>
+                                </a></div>
+                            <div class="col-1 mx-3"><a href="https://twitter.com/">
+                                    <div class="map-border d-flex justify-content-center align-items-center"><i class="fab fa-twitter"></i></div>
+                                </a></div>
+                            <div class="col-1 mx-3"><a href="https://www.instagram.com/">
+                                    <div class="map-border d-flex justify-content-center align-items-center"><i class="fab fa-instagram"></i></div>
+                                </a></div>
+                            <div class="col-1 mx-3"><a href="https://www.pinterest.com/">
+                                    <div class="map-border d-flex justify-content-center align-items-center"><i class="fab fa-pinterest"></i></div>
+                                </a></div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ================///City============= -->
+    <!-- ========FOOTER============= -->
+    <div class="footer-middle">
+        <div class="container-fluid1 middle">
+            <div class="row d-flex justify-content-center pr-5">
+                <div class="col-lg-2 col-md-4 col-sm-12">
+                    <!--Column1-->
+                    <div class="footer-pad text-dark">
+                        <h6 class="footer-h6">INFORMATION</h6>
+                        <address>
+                            <ul class="list-unstyled mt-4">
+                                <ul class="list list-unstyled">
+                                    <li><a href="#">The brand</a></li>
+                                    <li><a href="#">Local stores</a></li>
+                                    <li><a href="#">Customer service</a></li>
+                                    <li><a href="#">Privacy & cookies</a></li>
+                                    <li><a href="#">Site map</a></li>
+                                </ul>
+                        </address>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-12">
+                    <!--Column1-->
+                    <div class="footer-pad text-dark">
+                        <h6 class="footer-h6">WHY BUY FROM US</h6>
+                        <ul class="list list-unstyled mt-4">
+                            <li><a href="#"></a></li>
+                            <li><a href="#">Shipping & returns</a></li>
+                            <li><a href="#">Secure shopping</a></li>
+                            <li><a href="#">Testimonials</a></li>
+                            <li><a href="#">Award winning</a></li>
+                            <li><a href="#">Ethical trading</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-12">
+                    <!--Column1-->
+                    <div class="footer-pad text-dark">
+                        <h6 class="footer-h6">YOUR ACCOUNT</h6>
+                        <ul class="list list-unstyled mt-4">
+                            <li><a href="#">Sign in</a></li>
+                            <li><a href="#">Register</a></li>
+                            <li><a href="#">View cart</a></li>
+                            <li><a href="#">View your lookbook</a></li>
+                            <li><a href="#">Track an order</a></li>
+                            <li><a href="#">Update information</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-12">
+                    <!--Column1-->
+                    <div class="footer-pad text-dark">
+                        <h6 class="footer-h6">LOOKBOOK</h6>
+                        <ul class="list list-unstyled mt-4">
+                            <li><a href="#">Latest posts</a></li>
+                            <li><a href="#">Men’s lookbook</a></li>
+                            <li><a href="#">Women’s lookbook</a></li>
+                            <li><a href="#">Lookbooks RSS feed</a></li>
+                            <li><a href="#">View your lookbook</a></li>
+                            <li><a href="#">Delete your lookbook</a></li>
+                            <li>
+                                <a href="#"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4  col-sm-12 ">
+                    <!--Column1-->
+                    <div class="footer-pad text-dark">
+                        <h6 class="footer-h6">CONTACT DETAILS</h6>
+                        <ul class="list list-unstyled mt-4">
+                            <li><a href="#">Head Office: Avenue Fashion, </a></li>
+                            <li><a href="#">180-182 Regent Street, London.</a></li>
+                            <li><a class="drop mt-4 d-flex " href="#">Telephone: 0123-456-789</a></li>
+                            <li><a href="#">Email: support@yourwebsite.com</a></li>
+                            <li>
+                                <a href="#"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footerbr mt-4">
+            <div class="container-fluid2">
+                <div class="row  mda d-flex justify-content-around">
+                    <div class="ftbr col-md-5 col-sm-12 p-5 ml-5">
+                        <h2 class="txft">AWARD WINNER</h2>
+                        <h3 class="txft2">FASHION AWARDS 2016</h3>
+                    </div>
+                    <div class="ftbr1 d-flex align-items-center py-5 col-md-5 col-sm-12 ml-5 px-4">
+                        <div class="brico ">
+                            <a href="https://www.facebook.com/"><i class="fab fa-facebook-f  footer-icon"></i></a>
+                            <a href="https://twitter.com/"> <i class="fab fa-twitter pl-4 footer-icon"></i></a>
+                            <a href="https://www.instagram.com/"><i class="fab fa-instagram pl-4 footer-icon"></i></a>
+                            <a href="https://www.pinterest.com/"><i class="fab fa-pinterest pl-4 footer-icon"></i></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <div class="container-fluid1">
+            <div class="ftend row mt-5 d-flex justify-content-around py-2">
+                <div class="col-lg-3 col-md-4 col-sm-12 ">
+                    <p class="endtx1 ">
+                        © 2016 Avenue Fashion™
+                    </p>
+                </div>
+                <div class="col-lg-3 col-md-4  col-sm-12 ">
+                    <p class="endtx2 ">
+                        Design by RobbyDesigns.com
+                    </p>
+                </div>
+                <div class="col-lg-3  col-md-4 col-sm-12">
+                    <p class="endtx3">
+                        Dev by Loremipsum.com
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
